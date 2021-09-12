@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-height: var(--header-height);
+  width: 100%;
+  padding: 10px 20px;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo-txt {
+    display: inline-block;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+
+  &__logo-img {
+    width: 60px;
+    padding: 0px 20px;
+  }
+}
+
+.home-main-content {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - var(--header-height));
+  width: 100vw;
+  padding: 10px 50px;
+}
+
+.trip-title {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 40px;
+  color: white;
+
+  &__title {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+
+  &__subtitle {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+}
